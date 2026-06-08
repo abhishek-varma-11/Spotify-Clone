@@ -12,7 +12,12 @@ body {
 
 .navbar {
     width: 100%;
-    margin-top : 40px;
+    margin-top : 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    padding-right: 30px;
 }
 
 .home-btn{
@@ -24,7 +29,7 @@ body {
 }
 
 .navbar-left{
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -33,10 +38,104 @@ body {
     height: 1em;
 }
 
+.searchbar{
+    width: 30vw;
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(37, 36, 36);
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar-left{
+    gap: 10px;
+    justify-content: left;
+    align-items: center;
+}
+
+.searchbar-left img{
+    width: 1em;
+    height: 1em;
+}
+
+.searchbar-right{
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+}
+
+.separator{
+    background-color: white;
+    width: 1px;
+    height: 30px;
+    color:rgb(165, 163, 163);
+}
+
+.searchbar-right img{
+    width: 1.4em;
+    height: 1.4em;
+}
+
+.searchbar-left p{
+    font-size: large;
+    font-family: monospace;
+    color:rgb(165, 163, 163);
+}
+
+.navbar-right{
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-elements{
+    list-style-type: none;
+    color:rgb(165, 163, 163);
+    font-weight:900;
+    font-size: 0.8em;
+    gap: 10px;
+}
+
+.separation{
+    background-color: white;
+    width: 1px;
+    height: 30px;
+}
+
+.install-btn img{
+    width: 2em;
+    height: 1.2em;
+}
+
+.install-btn{
+    display: flex;
+    background-color: transparent;
+    color: white;
+    width: 7vw;
+    border: transparent;
+    align-items: center;
+    font-size: 0.7em;
+    color:rgb(165, 163, 163);
+    font-weight: bolder;
+}
+
+.signup-btn{
+    display: flex;
+    background-color: transparent;
+    color: white;
+    width: 5vw;
+    border: transparent;
+    align-items: center;
+    font-size: 0.7em;
+    color:rgb(165, 163, 163);
+    font-weight: bolder;
+}
+
 .left {
     height: 90vh;
     width: 25%;
-    /* border: 2px solid red; */
     margin: 10px;
     padding: 1rem;
     font-size: large;
@@ -45,7 +144,7 @@ body {
 .left .top {
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 3rem;;
+    margin-bottom: 3rem;
 }
 
 .createbtn{
@@ -69,9 +168,6 @@ body {
     height: 1em;
 }
 
-/* .playlist-container{
-    overflow-y: scroll;
-} */
 
 .box{
     border: solid transparent;
@@ -82,12 +178,12 @@ body {
 }
 
 .mainText{
-    font-size:0.8rem;
-    font-weight: bolder;
+    font-size:0.9rem;
+    font-weight:bolder;
 }
 
 .secondLine{
-    font-size:0.7rem;
+    font-size:0.8rem;
     font-weight: bolder;
 }
 
@@ -109,6 +205,13 @@ body {
     justify-content: left;
     padding-left: 10px;
     white-space: normal;
+    color: rgb(165, 163, 163);
+}
+
+#cookies{
+    font-size:0.7rem;
+    margin-top: -3px;
+    margin-left: 10px;    
 }
 
 .language-btn{
@@ -137,7 +240,9 @@ body {
 .right {
     height: 90vh;
     width: 75%;
-    /* border: 2px solid green; */
     margin: 10px;
-    /* overflow-y: auto; */
+    border: transparent;
+    background-color:rgb(16, 16, 16);
+    border-radius: 6px;
+    overflow-y: auto;
 }

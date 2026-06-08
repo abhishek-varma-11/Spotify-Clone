@@ -8,12 +8,39 @@
     <link rel="stylesheet" href="styles/utility.css">
 </head>
 <body>
-    <div class="navbar flex justify-content items-center">
-        <div class="navbar-left flex"></div>
-        <img src="logos and buttons/logo.svg" alt="logo">
-        <button class = "home-btn">
-            <img id = "home" src="logos and buttons/home.svg" alt="home symbol">
-        </button>
+    <div class="navbar flex items-center">
+        <div class="navbar-left flex">
+            <img src="logos and buttons/logo.svg" alt="logo">
+            <button class = "home-btn">
+                <img id = "home" src="logos and buttons/home.svg" alt="home symbol">
+            </button>
+            <div class="searchbar flex">
+                <div class="searchbar-left flex">
+                    <img src="logos and buttons/search.svg" alt="search symbol">
+                    <p>What do you want to play?</p>
+                </div>
+                <div class="searchbar-right flex">
+                    <div class="separator"></div>
+                    <img src="logos and buttons/browse.svg" alt="browse symbol">
+                </div>
+            </div>
+        </div>
+        <div class="navbar-right flex">
+            <div class="navbar-list">
+                <ul class="navbar-elements flex">
+                    <li>Premium</li>
+                    <li>Support</li>
+                    <li>Download</li>
+                </ul>
+            </div>
+            <div class="separation"></div>
+            <button class="install-btn">
+                <img src="logos and buttons/install.svg" alt="install symbol">
+                <p>Insall App</p>
+            </button>
+            <button class="signup-btn">Sign Up</button>
+            <button class="btn">Log In</button>
+        </div>
     </div>
     <div class="container flex">
         <div class = "left box" style="background-color: rgb(16, 16, 16);">
@@ -44,9 +71,9 @@
                     <li>Cookies</li>
                     <li>About Ads</li>
                     <li>Accessibility</li>
-                    <li class = "bold">Cookies</li>
                 </ul>
             </div>
+            <p id = "cookies">Cookies</p>
             <div>
                 <button class="language-btn flex justify-content items-center">
                     <img src="logos and buttons/language.svg" alt="universal-symbol">

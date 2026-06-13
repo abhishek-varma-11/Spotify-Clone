@@ -100,11 +100,3 @@ Many features required experimentation, debugging, and research before reaching 
 This project is a reflection of my learning process and growth as a developer. Rather than simply following tutorials, I used this project as an opportunity to understand the reasoning behind design choices, layout techniques, and user interface behavior.
 
 Every component in this project was hand-coded and built to help me gain practical experience with front-end development concepts.
-
----
-
-## Disclaimer
-
-This project was created for educational and learning purposes only.
-
-Spotify and all related trademarks, logos, and branding belong to their respective owners. This project is not affiliated with or endorsed by Spotify.
